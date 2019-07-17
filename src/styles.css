@@ -1,3 +1,31 @@
 h1 {
-    color:blueviolet
+    color:blueviolet;
+    text-align: center;
+}
+
+.square {
+    width: 22.7%;
+    background-color: green;
+    padding-bottom: 22.7%;
+    float: left;
+    margin: 2%;
+    border-radius: 18.3%;
+    transition: background-color 1s;
+    transition: border-radius 1s;
+    border: 3px solid orange;
+    cursor: pointer;
+}
+
+.square.winner {
+    background-color: gold;
+    border-radius: 25%;
+    border: 3px solid black;
+    cursor: default;
+}
+
+.square.loser {
+    background-color: gray;
+    border-radius: 25%;
+    border: 3px solid pink;
+    cursor: default;
 }

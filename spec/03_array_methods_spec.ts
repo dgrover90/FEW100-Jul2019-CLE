@@ -70,9 +70,9 @@ describe('Array methods', () => {
             mileage: number;
         };
         let vehicles = [
-            { vin: '8398398397', info: { make: 'Ford', model: 'Explorer', year: 2012 }, mileage: 132_000 },
+            { vin: '83983983977', info: { make: 'Ford', model: 'Explorer', year: 2012 }, mileage: 132_000 },
             { vin: '55567478473', info: { make: 'Toyota', model: 'Camry', year: 2018 }, mileage: 8_000 },
-            { vin: '1234947848', info: { make: 'Chevy', model: 'Bolt', year: 2018 }, mileage: 152_000 },
+            { vin: '12349478484', info: { make: 'Chevy', model: 'Bolt', year: 2018 }, mileage: 152_000 },
         ];
         it('your practice 1', () => {
             const answer: string[] = vehicles
